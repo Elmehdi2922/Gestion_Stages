@@ -49,7 +49,7 @@ public class graph extends AppCompatActivity {
         setContentView(R.layout.activity_graph);
         barChart = findViewById(R.id.BarChart);
         adresseIp ad=new adresseIp();
-        url=ad.getIp()+"/get_stageGraph.php";
+        url=ad.getIp()+"/get_stageGraph/";
         Log.d("mehdi","Tableau stage: ");
         new GetContacts().execute();
     }
