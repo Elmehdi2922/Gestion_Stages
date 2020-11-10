@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="47dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="#0101DF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/datedebut"
+        android:layout_width="97dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+
+        android:textColor="#429E01"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/datefin"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+
+        android:text="TextView"
+        android:textColor="#DF0108"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/etat"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
